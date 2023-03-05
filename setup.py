@@ -29,7 +29,7 @@ install_requires = [
     "numpy>=1.12",
     "jax>=0.2.21",
     "flax>=0.5.1",
-    "aqtp[jax_legacy]>=0.0.10",
+    "aqtp @ git+https://github.com/google/aqt",
 ]
 
 tests_require = [
